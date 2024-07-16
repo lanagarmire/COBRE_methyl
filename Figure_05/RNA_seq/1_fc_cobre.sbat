@@ -1,0 +1,13 @@
+#!/bin/bash
+#SBATCH --job-name=fc_cobre
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=4
+#SBATCH --time=24:00:00
+#SBATCH --mem-per-cpu=40g
+#SBATCH --mail-user=yhdu@umich.edu
+#SBATCH --mail-type=END
+#SBATCH --output=./%x-%j
+module load subread/1.6.4
+featureCounts -p -T 12 -a /home/yhdu/Homo_sapiens.GRCh38.94.gtf -t exon -g gene_name \
+-o /home/yhdu/cobre_rna/cobre_counts_name.txt \
+/home/yhdu/cobre_rna/cobre_align_final/*.bam

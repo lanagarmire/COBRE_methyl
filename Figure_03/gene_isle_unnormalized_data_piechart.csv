@@ -1,0 +1,17 @@
+df,region,value
+Illumina450K,Shelf,0.09710161644
+Illumina450K,Shore,0.2308223072
+Illumina450K,CpG Island,0.309475358
+Illumina450K,Opensea,0.3626007184
+All DM Sites,Shelf,0.07420675537
+All DM Sites,Shore,0.2448457377
+All DM Sites,CpG Island,0.3868986694
+All DM Sites,Opensea,0.2940488375
+Hypermethylation,Shelf,0.06250689009
+Hypermethylation,Shore,0.2779186418
+Hypermethylation,CpG Island,0.4125234263
+Hypermethylation,Opensea,0.2470510418
+Hypomethylation,Shelf,0.09724332537
+Hypomethylation,Shore,0.1797265031
+Hypomethylation,CpG Island,0.3364445409
+Hypomethylation,Opensea,0.3865856306

@@ -1,0 +1,29 @@
+df,region,value
+Illumina450K,Body,0.3329585215
+Illumina450K,IGR,0.2465458619
+Illumina450K,TSS200,0.1076719037
+Illumina450K,TSS1500,0.1420660369
+Illumina450K,5\'UTR,0.08790572865
+Illumina450K,3\'UTR,0.03602724182
+Illumina450K,1stExon,0.04682470545
+All DM Sites,Body,0.2969001316
+All DM Sites,IGR,0.194399766
+All DM Sites,TSS200,0.1532387776
+All DM Sites,TSS1500,0.168299459
+All DM Sites,5\'UTR,0.1049861091
+All DM Sites,3\'UTR,0.02763561924
+All DM Sites,1stExon,0.05454013745
+Hypermethylation,Body,0.2634770147
+Hypermethylation,IGR,0.1800242531
+Hypermethylation,TSS200,0.1814573917
+Hypermethylation,TSS1500,0.1827802888
+Hypermethylation,5\'UTR,0.1123360159
+Hypermethylation,3\'UTR,0.01885128431
+Hypermethylation,1stExon,0.06107375152
+Hypomethylation,Body,0.3627089212
+Hypomethylation,IGR,0.22270458
+Hypomethylation,TSS200,0.09767744736
+Hypomethylation,TSS1500,0.1397872802
+Hypomethylation,5\'UTR,0.09051443456
+Hypomethylation,3\'UTR,0.04493162579
+Hypomethylation,1stExon,0.04167571087
