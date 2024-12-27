@@ -31,7 +31,7 @@ Du, Yuheng, Paula A. Benny, Yuchen Shao, Ryan J. Schlueter, Alexandra Gurary, An
     gset <- gset[[idx]]
     myCombat <- exprs(gset)
 	mypd <- pData(gset)
-	
+
 ### Step 2: Source of Variance (SOV) Analysis 
 #### Input
 > **myCombat**: Preprocessed and normalized methylation matrix<br>
@@ -54,10 +54,12 @@ Du, Yuheng, Paula A. Benny, Yuchen Shao, Ryan J. Schlueter, Alexandra Gurary, An
 >  **diff_cpg_gene**: Differential CpG sites with gene info annotation
  
     Rscript Figure_03/3_limma volcano.R
+    Figure_03/Remove Crosshyb-probe New Fig3 limma volcano pie.ipynb
     
 ### Step 4: CpG region distribution
 
     Rscript Figure_03/gene pie distribution plot.R
+    Figure_03/Remove Crosshyb-probe New Fig3 limma volcano pie.ipynb
 
 
 ## Figure 4. Functional enrichment analysis
@@ -77,10 +79,12 @@ Du, Yuheng, Paula A. Benny, Yuchen Shao, Ryan J. Schlueter, Alexandra Gurary, An
 > **cobre_pd**: Clinical data<br>
 > **anno**: Illumina450K annotation file <br>
 > **missmethyl_kegg**:  Subset of KEGG pathways with supergroups from 'Cellular Processes','Environmental Information Processing', 'Genetic Information Processing', 'Metabolism','Organismal Systems'
+> **hypergeometric test**:  Find pathway size adjusted p-value via hypergeometrix test
 #### **Output**
 > **Plot**: Immune and protein pathway scores comparison
 
     Figure_04/2_check_immune_protein_scores.ipynb
+    Figure_04/pathway_hypergeometric.ipynb
 
 ### Step 3: Stemness score
 #### Input
@@ -145,7 +149,29 @@ Du, Yuheng, Paula A. Benny, Yuchen Shao, Ryan J. Schlueter, Alexandra Gurary, An
 > **cobre_methyl_sig**: Significant CpG sites  <br>
 > **anno**: Illumina450K annotation file
 #### **Output**
+
 > **result.diablo.tcga**: DIABLO integration result
 
     Figure_05/03_diablo_3omics_3batch_vsn.ipynb
 
+## Figure 6. Obesity random forest model for TCGA prediction
+### Step 1: Obtain TCGA methylation 450 K data
+#### Input
+> **TCGA clinical file**: Figure_06/tcga_sample_clinical.rds
+#### **Output** 
+> **TCGA beta matrices**
+### Step 2: Find common markers between top obesity pathways and TCGA datasets
+#### Input
+> **Common markers**: Figure_06/tcga_sample_clinical.rds  
+### Step 3: Build obesity RF model, predicting on TCGA, evaluation
+	Figure_06/Figure 6 Obesity RF Model TCGA.ipynb
+
+## Supplemental Figure 2. Data Quality Control
+> **Sex mismatch check and median intensity plot**: Supp_Figure_02/QC_sexcheck_medianintensity.ipynb
+
+## Supplemental Figure 3. Differential expression and gene-methylation correlation analyses.
+> **Confounder SOV**: Supp_Figure_03/cobre_gene_expr_DE_sov.ipynb  <br>
+> **Differential expression and correlation**: Supp_Figure_03/differential_limma_voom.ipynb
+
+## Supplemental Figure 4. QQ plot and genomic inflation
+> **QQ plot and genomic inflation**: Supp_Figure_04/QQ_bacon_inflation.ipynb
