@@ -3,7 +3,7 @@
 **Background** <br> Maternal obesity is a health concern that may predispose newborns to a high risk of medical problems later in life. To understand the transgenerational effect of maternal obesity, we conducted a multi-omics study, using DNA methylation and gene expression in the CD34+/CD38-/Lin-umbilical cord blood hematopoietic stem cells (uHSCs) and metabolomics of the cord blood, all from a multi-ethnic cohort (n=72) from Kapiolani Medical Center for Women and Children in Honolulu, Hawaii (collected between 2016 and 2018).
 
 **Citation** <br>
-Du, Yuheng, Paula A. Benny, Yuchen Shao, Ryan J. Schlueter, Alexandra Gurary, Annette Lum-Jones, Cameron B. Lassiter, et al. n.d. “Multi-Omics Analysis of Umbilical Cord Hematopoietic Stem Cells from a Multi-Ethnic Cohort of Hawaii Reveals the Transgenerational Effect of Maternal Pre-Pregnancy Obesity.” *medRxiv*. [https://doi.org/10.1101/2024.07.27.24310936.](https://www.medrxiv.org/content/10.1101/2024.07.27.24310936v1) <br>
+Du, Yuheng, Paula A. Benny, Yuchen Shao, Ryan J. Schlueter, Alexandra Gurary, Annette Lum-Jones, Cameron B. Lassiter, et al. n.d. “Multi-Omics Analysis of Umbilical Cord Hematopoietic Stem Cells from a Multi-Ethnic Cohort of Hawaii Reveals the Transgenerational Effect of Maternal Pre-Pregnancy Obesity.” *medRxiv*. [https://www.medrxiv.org/content/10.1101/2024.07.27.24310936v3](https://www.medrxiv.org/content/10.1101/2024.07.27.24310936v3) <br>
 
 ## Figure 1. Analysis Pipeline
 ![Analysis Pipeline](https://github.com/yhdu36/COBRE_methyl/blob/main/Figure_01/Figure_01_COBRE%20analysis%20pipeline.png?raw=true)
